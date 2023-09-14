@@ -1,0 +1,75 @@
+diff --git a/2_decrypted.ahk b/3_cracked.ahk
+index 8c46d57..700404e 100644
+--- a/2_decrypted.ahk
++++ b/3_cracked.ahk
+@@ -1210,10 +1210,11 @@ for key, val in AutorisedComputer {
+ 	}
+ }
+ 
+-if(!UserOk){
+-	MsgBox Fuck off.
+-	ExitApp
+-
++if(!UserOk){       ; xd cracked by rigwild - https://github.com/rigwild/DofusPouletFlemmards-cracked
++ MsgBox Cracked with love by rigwild <3 https://github.com/rigwild/DofusPouletFlemmards-cracked 
++ ; MsgBox Fuck off. 
++ ; ExitApp
++ 
+ }
+ 
+ #SingleInstance, force
+@@ -1232,9 +1233,9 @@ SetKeyDelay, -1
+ SetControlDelay -1
+ SetTitleMatchMode, Regex
+ 
+-Menu, Tray, Tip, DofusPouletFlemmards 3.2
+-Menu, Tray, Add, Open DofusPouletFlemmards, showGUI
+-Menu, Tray, Default,Open DofusPouletFlemmards
++Menu, Tray, Tip, d-p-f__Cracked_by_rigwild___2023_09_14
++Menu, Tray, Add, Open d-p-f__Cracked_by_rigwild___2023_09_14, showGUI
++Menu, Tray, Default,Open d-p-f__Cracked_by_rigwild___2023_09_14
+ ;-------------------------------------------------------
+ ; GLOBAL
+ ;-------------------------------------------------------
+@@ -1244,10 +1245,10 @@ my_picturefile3 = %A_Temp%\DofusPouletFlemmardsPoussin.png
+ Pic2 = %A_Temp%\DofusPouletFlemmardsMini.png
+ PicDonate = %A_Temp%\donate.png
+ 
+-FileInstall, C:\Users\x\Documents\DofusPouletFlemmards\DofusPouletFlemmards.png, %my_picturefile%, 1
+-FileInstall, C:\Users\x\Documents\DofusPouletFlemmards\DofusPouletFlemmardsMini.png, %Pic2%, 1
+-FileInstall, C:\Users\x\Documents\DofusPouletFlemmards\donate.png, %PicDonate%, 1
+-FileInstall, C:\Users\x\Documents\DofusPouletFlemmards\DofusPouletFlemmardsPoussin.png, %my_picturefile3%, 1
++FileInstall, DofusPouletFlemmards.png, %my_picturefile%, 1
++FileInstall, DofusPouletFlemmardsMini.png, %Pic2%, 1
++FileInstall, donate.png, %PicDonate%, 1
++FileInstall, DofusPouletFlemmardsPoussin.png, %my_picturefile3%, 1
+ global DofusPath:= A_AppData "\..\Local\Ankama\zaap\retro\resources\app\retroclient\dofus.exe"
+ 
+ class NicknamesPaired {
+@@ -2805,7 +2806,7 @@ startX := 40
+ startY := 70
+ hotkeyWidth := 90
+ setPosWidth := 95
+-Gui, Add, GroupBox,% " x" startX " y"startY " w"TwoSettings " h"100, % " DofusPouletFlemmards "
++Gui, Add, GroupBox,% " x" startX " y"startY " w"TwoSettings " h"100, % " d-p-f__Cracked_by_rigwild___2023_09_14 "
+ startX := startX+25
+ Gui, Add, Text, % " x" startX " y"startY+30 " w"90 " h"25 , Reload
+ Gui, Add, Hotkey,% " x" startX " y"startY+60 " w"90 " h"25 " vReloadDPF", %ReloadKey%
+@@ -3337,7 +3338,7 @@ gui,tab, 7
+ Gui, Add,Picture,% " x"360 " y"300 " vPic" A_Index, %PicDonate%
+ Gui, Add, Text, x590 y605, Non c'est ce bouton là  ...
+ Gui, Add, Button, x800 y600 gDonate, Donate
+-Gui, Show, w%GUIsizeW% h%GUIsizeH%, DofusPouletFlemmards
++Gui, Show, w%GUIsizeW% h%GUIsizeH%, d-p-f__Cracked_by_rigwild___2023_09_14
+ 
+ ;-------------------------------------------------------
+ ;
+@@ -6466,7 +6467,7 @@ HideEverything2:
+ return
+ 
+ showGUI:
+-	Gui, Show, w%GUIsizeW% h%GUIsizeH%, DofusPouletFlemmards
++	Gui, Show, w%GUIsizeW% h%GUIsizeH%, d-p-f__Cracked_by_rigwild___2023_09_14
+ return
+ 
+ SaveChar:
