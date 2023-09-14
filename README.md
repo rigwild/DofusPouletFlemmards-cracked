@@ -1,22 +1,22 @@
 # DofusPouletFlemmards cracked
 
-DofusPouletFlemmards v3.8 cracked version.
+DofusPouletFlemmards v3.9.2 cracked version.
 
 Extracted and decrypted full original source code.
 
-Now that the project officially stopped, distributing the full extracted and decrypted source code.
+Now that the project officially stopped, I am distributing the full extracted and decrypted source code., enjoy!
 
 ## Run
 
 ###
 
 1. Download and extract [AutoHotkey v1.1+](https://www.autohotkey.com/download/1.1/AutoHotkey_1.1.36.02.zip).
-2. Drag & drop [`v3.8/3_cracked.ahk`](./v3.8/3_cracked.ahk) onto `AutoHotkeyU64.exe`. Program should start.
+2. Drag & drop [`v3.9.2/3_cracked.ahk`](./v3.9.2/3_cracked.ahk) onto `AutoHotkeyU64.exe`. Program should start.
 3. Enjoy.
 
 All the features are working as expected.
 
-![Screenshot](./screenshot.webp)
+![Screenshot](./screenshot.png)
 
 See:
 
@@ -28,6 +28,15 @@ See:
 ## File hash
 
 Check the cracked version you downloaded elsewhere is the original file.
+
+### v3.9.2
+
+| File                             | SHA-256 Hash                                                       | VirusTotal                                                                                                   |
+| -------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
+| `DofusPouletFlemmards_3.9_2.exe` | `caa3e18d5a0ad4a9142a12f828b7be285c9c3a1e29d505bdb64b347733c3235e` | [link](https://www.virustotal.com/gui/file/caa3e18d5a0ad4a9142a12f828b7be285c9c3a1e29d505bdb64b347733c3235e) |
+| `1_extracted.ahk`                | `6d90a6079b5d91b0d9c7e6c3531df09e982a2fcb83f90eac2d3e122420bb6ea9` | [link](https://www.virustotal.com/gui/file/6d90a6079b5d91b0d9c7e6c3531df09e982a2fcb83f90eac2d3e122420bb6ea9) |
+| `2_decrypted.ahk`                | `e0304bd4f6dda1bcb8253e1cdcc8590e8074d3d9cbfc16a6bab13215fcfe046a` | [link](https://www.virustotal.com/gui/file/e0304bd4f6dda1bcb8253e1cdcc8590e8074d3d9cbfc16a6bab13215fcfe046a) |
+| `3_cracked.ahk`                  | `cb0d8f747d9907cea204ff6a4ed64ad195274bd0121f2c4eee0757c36fde1ce5` | [link](https://www.virustotal.com/gui/file/cb0d8f747d9907cea204ff6a4ed64ad195274bd0121f2c4eee0757c36fde1ce5) |
 
 ### v3.8
 
@@ -46,87 +55,10 @@ Check the cracked version you downloaded elsewhere is the original file.
 
 ## Difference between original extracted source and crack
 
+See [`./v3.9.2/crack.patch`](./crack.patch).
+
 ```sh
 git diff --no-index 2_decrypted.ahk 3_cracked.ahk > crack.patch
-```
-
-```diff
-diff --git a/2_decrypted.ahk b/3_cracked.ahk
-index 73bc2be..117d5e5 100644
---- a/2_decrypted.ahk
-+++ b/3_cracked.ahk
-@@ -1107,11 +1107,11 @@ for key, val in AutorisedComputer {
- }
- }
-
--if(!UserOk){
-- MsgBox Fuck off.
-- ExitApp
--
--}
-+;if(!UserOk){       ; xd cracked by rigwild
-+; MsgBox Fuck off.
-+; ExitApp
-+;
-+;}
-
- #SingleInstance, force
- #MaxThreadsPerHotkey 3
-@@ -1129,9 +1129,9 @@ SetKeyDelay, -1
- SetControlDelay -1
- SetTitleMatchMode, Regex
-
--Menu, Tray, Tip, DofusPouletFlemmards 3.2
--Menu, Tray, Add, Open DofusPouletFlemmards, showGUI
--Menu, Tray, Default,Open DofusPouletFlemmards
-+Menu, Tray, Tip, DofusPouletFlemmards___cracked_by_rigwild___2023_03_11
-+Menu, Tray, Add, Open DofusPouletFlemmards___cracked_by_rigwild___2023_03_11, showGUI
-+Menu, Tray, Default,Open DofusPouletFlemmards___cracked_by_rigwild___2023_03_11
- ;-------------------------------------------------------
- ; GLOBAL
- ;-------------------------------------------------------
-@@ -1141,10 +1141,10 @@ my_picturefile3 = %A_Temp%\DofusPouletFlemmardsPoussin.png
- Pic2 = %A_Temp%\DofusPouletFlemmardsMini.png
- PicDonate = %A_Temp%\donate.png
-
--FileInstall, C:\Users\x\Documents\DofusPouletFlemmards\DofusPouletFlemmards.png, %my_picturefile%, 1
--FileInstall, C:\Users\x\Documents\DofusPouletFlemmards\DofusPouletFlemmardsMini.png, %Pic2%, 1
--FileInstall, C:\Users\x\Documents\DofusPouletFlemmards\donate.png, %PicDonate%, 1
--FileInstall, C:\Users\x\Documents\DofusPouletFlemmards\DofusPouletFlemmardsPoussin.png, %my_picturefile3%, 1
-+FileInstall, DofusPouletFlemmards.png, %my_picturefile%, 1
-+FileInstall, DofusPouletFlemmardsMini.png, %Pic2%, 1
-+FileInstall, donate.png, %PicDonate%, 1
-+FileInstall, DofusPouletFlemmardsPoussin.png, %my_picturefile3%, 1
- global DofusPath:= A_AppData "\..\Local\Ankama\zaap\retro\resources\app\retroclient\dofus.exe"
-
- class NicknamesPaired {
-@@ -2992,7 +2992,7 @@ startX := 40
- startY := 70
- hotkeyWidth  := 90
- setPosWidth := 95
--Gui, Add, GroupBox,% " x" startX   " y"startY " w"TwoSettings " h"100, % " DofusPouletFlemmards   "
-+Gui, Add, GroupBox,% " x" startX   " y"startY " w"TwoSettings " h"100, % " DofusPouletFlemmards___cracked_by_rigwild___2023_03_11   "
- startX := startX+25
- Gui, Add, Text, % " x" startX  " y"startY+30 " w"90 " h"25 , Reload
- Gui, Add, Hotkey,% " x" startX  " y"startY+60 " w"90 " h"25 " vReloadDPF", %ReloadKey%
-@@ -3592,7 +3592,7 @@ gui,tab, 8
- Gui, Add,Picture,% " x"360 " y"300 " vPic" A_Index, %PicDonate%
- Gui, Add, Text, x590 y605, Non c'est ce bouton là ...
- Gui, Add, Button, x800 y600 gDonate, Donate
--Gui, Show, w%GUIsizeW% h%GUIsizeH%, DofusPouletFlemmards
-+Gui, Show, w%GUIsizeW% h%GUIsizeH%, DofusPouletFlemmards___cracked_by_rigwild___2023_03_11
-
-
- ;-------------------------------------------------------
-@@ -6914,7 +6914,7 @@ return
-
-
- showGUI:
--Gui, Show, w%GUIsizeW% h%GUIsizeH%, DofusPouletFlemmards
-+Gui, Show, w%GUIsizeW% h%GUIsizeH%, DofusPouletFlemmards___cracked_by_rigwild___2023_03_11
- return
-
- SaveChar:
 ```
 
 ## License
