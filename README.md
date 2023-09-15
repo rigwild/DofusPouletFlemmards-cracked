@@ -55,7 +55,7 @@ Check the cracked version you downloaded elsewhere is the original file.
 
 ## Difference between original extracted source and crack
 
-See [`./v3.9.2/crack.patch`](./crack.patch).
+See [`./v3.9.2/crack.patch`](./v3.9.2/crack.patch).
 
 ```sh
 git diff --no-index 2_decrypted.ahk 3_cracked.ahk > crack.patch
